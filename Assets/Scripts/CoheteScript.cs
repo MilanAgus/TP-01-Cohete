@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoheteScript : MonoBehaviour
+public class CoheteSpeed : MonoBehaviour
 {
-    public float coheteSpeed = 0;
+    public float cohete = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -15,11 +15,6 @@ public class CoheteScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0,coheteSpeed,0);
-    }
-
-    public void Despegue()
-    {
-        coheteSpeed = 0.1f;
+        
     }
 }
